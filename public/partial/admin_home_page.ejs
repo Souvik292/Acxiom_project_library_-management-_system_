@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home Page</title>
+    <link rel="stylesheet" href="/style/admin_style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Home Page</h1>
+        <a href="#" class="back-button">&larr; Back</a>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item maintenance-menu">
+            <a href="/partial/maintance.html">
+            <h2>Maintenance Menu</h2>
+            </a>
+            <!-- Add maintenance menu items here -->
+        </div>
+
+        <div class="menu-item report-menu">
+            <a href="/partial/report.html">
+            <h2>Report Menu</h2>
+            </a>
+            <!-- Add report menu items here -->
+        </div>
+
+        <div class="menu-item transaction-menu" >
+            <a href="/partial/transaction.html">
+            Transaction Menu</a>
+            <!-- Add transaction menu items here -->
+        </div>
+    </div>
+
+    <!-- Product Details Table -->
+    <div class="table-container">
+        <h2>Product Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Code No From</th>
+                    <th>Code No To</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SC(B/M)000001</td>
+                    <td>SC(B/M)000004</td>
+                    <td>Science </td>
+                </tr>
+                <tr>
+                    <td>EC(B/M)000001</td>
+                    <td>EC(B/M)000004</td>
+                    <td>Economics</td>
+                </tr>
+                <tr>
+                    <td>FC(B/M)000001</td>
+                    <td>FC(B/M)000004</td>
+                    <td>Fiction</td>
+                </tr>
+                <tr>
+                  <td>CH(B/M)000001</td>
+                  <td>CH(B/M)000004</td>
+                  <td>Children</td>
+              </tr>
+              <tr>
+                <td>PD(B/M)000001</td>
+                <td>PD(B/M)000004</td>
+                <td>Personal Development</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Logout Button -->
+    <div class="logout-container">
+        <a href="#" class="logout-button">Logout</a>
+    </div>
+</body>
+</html>
