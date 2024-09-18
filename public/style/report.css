@@ -1,0 +1,75 @@
+/* General styling */
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .home-button {
+    position: absolute;
+    right: 20px; /* Aligns home button to the right */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .home-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Reports container styling */
+  .reports-container {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .report-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Logout button styling */
+  .logout-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .logout-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #555;
+  }
+  

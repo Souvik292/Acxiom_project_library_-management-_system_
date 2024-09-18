@@ -1,0 +1,119 @@
+/* General styling */
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .back-button {
+    position: absolute;
+    right: 20px; /* Aligns back button to the right */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Menu container and item styling */
+  .menu-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Table styling */
+  .table-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+  }
+  
+  table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+  }
+  
+  table th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+  }
+  
+  table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+  }
+  
+  /* Logout button styling */
+  .logout-container {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+  }
+  
+  .logout-button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  .logout-button:hover {
+      background-color: #555;
+  }
+  a{
+   
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+  }
+  
