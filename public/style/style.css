@@ -1,1 +1,57 @@
-
+form{
+    width:50%;
+  }
+  .loginform{
+    margin-top:50px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot{
+    margin-top:10px;
+    padding-left: 20px;
+  
+  }
+  .forgot input{
+   
+   cursor: pointer;
+  }
+  .loginbutton{
+   
+    color:#fff;
+    background-color: #00af21;
+    border-radius: 4px;
+    height: 35px;
+    width: 80px;
+  }
+  .forgot1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .forgot1 a{
+  color:rgba(35, 34, 34, 0.775)
+  
+  }
+  .createnewform{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+  
+  
+  }
+  .createbutton{
+    color:#fff;
+    background-color:rgba(35, 34, 34, 0.775);
+    border-radius: 4px;
+    height: 35px;
+    width: 200px;
+    border: none;
+    margin-left:25%;
+    margin-top: 20px;
+  
+  }
